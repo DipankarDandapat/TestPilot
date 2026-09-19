@@ -1,0 +1,70 @@
+# ========================
+# Python / Backend
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+dist/
+build/
+.venv/
+venv/
+env/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+*.cover
+*.log
+
+# Backend runtime files
+backend/app.log
+backend/*.db-shm
+backend/*.db-wal
+
+
+
+# ========================
+# Node / Frontend
+# ========================
+node_modules/
+frontend/node_modules/
+frontend/build/
+frontend/coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# ========================
+# Docker
+# ========================
+*.dockerignore
+
+# ========================
+# IDE / OS
+# ========================
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# Misc
+# ========================
+screenshots/
+*.bak
+*.tmp
